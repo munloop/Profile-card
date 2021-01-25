@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  background-color: #19a2ae;
+  color: #2d3248;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: #6a6f81;
+  font-size: 0.875rem;
+}
+
+span {
+  color: #6a6f81;
+  font-size: 1.111rem;
+  font-weight: 400;
+  margin-left: 0.278em;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  max-width: 320px;
+  overflow: hidden;
+}
+
+.card__header {
+  display: block;
+}
+
+.card__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #6a6f8136;
+}
+
+.card__body p {
+  margin-bottom: 1.5em;
+}
+
+.card__body-img {
+  border: 5px solid #fff;
+  background-color: #fff;
+  border-radius: 100%;
+  margin-top: calc(-48px - 5px);
+}
+
+.card__body-title {
+  font-size: 1.111rem;
+  margin: 1em 0 0 0;
+}
+
+.card__body-title p {
+  margin-top: 0.5em;
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card__footer-count {
+  text-align: center;
+}
+
+.card__footer-count h3 {
+  font-size: 1.111rem;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+
+.card__footer-count p {
+  letter-spacing: 1px;
+  font-size: 0.667rem;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.attribution {
+  color: #fff;
+  text-align: center;
+}
+
+.attribution a {
+  color: #2d3248;
+}
+/*# sourceMappingURL=style.css.map */
